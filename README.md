@@ -1,12 +1,58 @@
-# React + Vite
+# Phudu – Online Doctor Appointment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Short Overview:**  
+Phudu is a web-based platform that connects patients with verified, experienced doctors across various specialties. Users can search for doctors, view their profiles and credentials, and book appointments easily — all from one place. The goal is to make quality healthcare accessible, convenient, and trustworthy.
 
-Currently, two official plugins are available:
+## Live Project
+[**Visit Phudu Live**](https://heartfelt-meerkat-ecde62.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Screenshot
+<p align="center">
+  <img  src="https://i.postimg.cc/bv0XffK9/Screenshot-2025-08-08-155651.png" alt="Banner" width="100%">
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dependencies
+```bash
+npm i lottie-react
+npm init -y
+npm install swiper
+```
+
+
+## Technologies Used
+- **Frontend:** React.js, React Router DOM
+- **Styling:** Tailwind CSS (or custom CSS — check repo)
+- **Deployment:** Netlify
+- **Icons & UI Components:** (e.g., Heroicons / Material UI — update if used)
+- **HTTP Requests:** Axios (if used for fetching doctors list)
+
+---
+
+## Core Features
+- Search any doctor by name or specialty
+- View detailed doctor profiles (experience, qualifications, registration number)
+- Book appointments online
+- "Our Best Doctors" showcase section
+- Medical service statistics (Total Doctors, Reviews, Patients, Staff)
+- Fully responsive design for mobile, tablet, and desktop
+- Blog and contact pages
+- User-friendly navigation (Home, My Bookings, Blogs, Contact Us)
+
+---
+
+## 🧪 How to Run Locally
+
+### Prerequisites
+- Node.js and npm installed
+
+
+### 1. Clone the Repositories
+```bash
+git clone https://github.com/your-username/Medicare-PHUDU
+cd Medicare-PHUDU
+npm run build
+
+
+
