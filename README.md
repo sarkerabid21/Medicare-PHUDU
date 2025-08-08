@@ -23,10 +23,8 @@ npm install swiper
 
 ## Technologies Used
 - **Frontend:** React.js, React Router DOM
-- **Styling:** Tailwind CSS (or custom CSS — check repo)
+- **Styling:** Tailwind CSS 
 - **Deployment:** Netlify
-- **Icons & UI Components:** (e.g., Heroicons / Material UI — update if used)
-- **HTTP Requests:** Axios (if used for fetching doctors list)
 
 ---
 
